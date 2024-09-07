@@ -56,7 +56,7 @@ onMounted(async () => {
     <n-global-style />
     <n-message-provider>
       <n-space vertical>
-        <h2>Looking Glass Server</h2>
+        <h2>ZedWAre Server Looking Glass</h2>
         <LoadingCard v-if="appStore.connecting" />
         <template v-else>
           <InfoCard />
@@ -72,9 +72,9 @@ onMounted(async () => {
                 text
                 tag="a"
                 target="_blank"
-                href="https://github.com/wikihost-opensource/als"
+                href="https://s.6667890.xyz"
               >
-                WIKIHOST Opensource - ALS (Github)
+                ZedWAre Server Status
               </n-button>
             </div>
             <div>
